@@ -1,4 +1,4 @@
-import Square from "../components/Square"
+import Square from "./Square"
 
 class Row extends React.Component {
     constructor(props) {

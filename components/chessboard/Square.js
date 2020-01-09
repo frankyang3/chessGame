@@ -1,5 +1,5 @@
-class Square extends React.Component {
 
+class Square extends React.Component {
     constructor(props) {
         super(props)
         this.state = {pieceID: -1,

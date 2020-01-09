@@ -1,5 +1,5 @@
-import Layout from "../components/Layout"
-import Board from "../components/Board"
+import Layout from "../components/page_disp/Layout"
+import Board from "../components/chessboard/Board"
 
 const Index = () => (
     <div>
