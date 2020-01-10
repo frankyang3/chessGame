@@ -1,4 +1,6 @@
 import Row from "./Row"
+import MoveTable from "../side_disp/MoveTable"
+import Buttons from "../side_disp/Buttons"
 
 class Board extends React.Component {
     constructor(props) {
@@ -19,6 +21,14 @@ class Board extends React.Component {
                         <div className = "content">
                             {index}
                         </div>
+                    </div>
+                </div>
+                <div className = "side">
+                    <div className = "table">
+                        <MoveTable/>
+                    </div>
+                    <div className = "buttons">
+                        <Buttons/>
                     </div>
                 </div>
                 <style jsx> {`
@@ -48,6 +58,16 @@ class Board extends React.Component {
                         margin-right: auto;
                         margin-top: 1.5rem;
                         letter-spacing: 3rem;
+                    }
+                    .side {
+                        margin-left: 9rem;
+                        margin-top: 8rem;
+                    }
+                    .buttons {
+                        margin-top: 5rem;
+                    }
+                    .table {
+                        margin-left: 1rem;
                     }
                 `} </style>
             </div>
